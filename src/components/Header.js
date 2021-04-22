@@ -3,7 +3,6 @@ import FirebaseContext from "../context/firebase";
 import UserContext from "../context/user";
 import { Link } from "react-router-dom";
 import * as ROUTES from "../constants/routes";
-import Dashboard from "../pages/Dashboard";
 
 const Header = () => {
   const { firebase } = useContext(FirebaseContext);

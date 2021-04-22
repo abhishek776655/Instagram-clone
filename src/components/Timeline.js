@@ -1,7 +1,11 @@
 import React from "react";
 
 const Timeline = () => {
-  return <p>Timeline</p>;
+  return (
+    <div className="col-span-2">
+      <p>Timeline</p>
+    </div>
+  );
 };
 
 export default Timeline;
